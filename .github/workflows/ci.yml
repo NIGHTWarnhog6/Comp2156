@@ -1,23 +1,27 @@
+name: CI
 
-  name: CI
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
-  on:
-    push:
-    pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-  jobs:
-    build:
-      runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
-          with:
-            ref: main
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-        - name: Confirm CI works
-          run: |
-            echo "CI pipeline is running"
-            pwd
-            ls -la
+      - name: Verify pipeline
+        run: |
+          echo "CI pipeline is running"
+          node -v
+          npm -v
 
