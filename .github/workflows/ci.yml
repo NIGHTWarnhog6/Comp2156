@@ -1,22 +1,23 @@
-name: CI
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  name: CI
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+  on:
+    push:
+    pull_request:
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  jobs:
+    build:
+      runs-on: ubuntu-latest
 
-      - name: Confirm workflow runs
-        run: |
-          echo "CI pipeline is running successfully"
-          ls -la
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+          with:
+            ref: main
+
+        - name: Confirm CI works
+          run: |
+            echo "CI pipeline is running"
+            pwd
+            ls -la
+
