@@ -1,11 +1,12 @@
-
 name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
@@ -15,6 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: List repository files
-        run: ls -la
-
+      - name: Confirm workflow runs
+        run: |
+          echo "CI pipeline is running successfully"
+          ls -la
