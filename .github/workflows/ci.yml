@@ -1,4 +1,4 @@
-name: CI
+name: Node.js CI
 
 on:
   push:
@@ -12,16 +12,18 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: "20"
+          node-version: '16'
 
-      - name: Verify pipeline
+      - name: Install dependencies
         run: |
-          echo "CI pipeline is running"
-          node -v
-          npm -v
+          npm install
+
+      - name: Run tests
+        run: |
+          npm test
 

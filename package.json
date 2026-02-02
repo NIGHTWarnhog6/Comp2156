@@ -1,0 +1,21 @@
+{
+  "name": "comp2156",
+  "version": "1.0.0",
+  "description": "This repository uses **GitHub Actions** to implement a Continuous Integration (CI) pipeline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: No tests created yet.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIGHTWarnhog6/Comp2156.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NIGHTWarnhog6/Comp2156/issues"
+  },
+  "homepage": "https://github.com/NIGHTWarnhog6/Comp2156#readme"
+}
