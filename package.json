@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This repository uses GitHub Actions to implement a Continuous Integration (CI) pipeline.",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
