@@ -16,3 +16,5 @@ This repository uses **GitHub Actions** to implement a Continuous Integration (C
 ### Status
 The CI pipeline runs successfully and completes without errors.
 
+# GitHub Action Status Badge
+[![CI](https://github.com/NIGHTWarnhog6/Comp2156/actions/workflows/ci.yml/badge.svg)](https://github.com/NIGHTWarnhog6/Comp2156/actions/workflows/ci.yml)

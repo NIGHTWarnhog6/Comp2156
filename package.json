@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This repository uses GitHub Actions to implement a Continuous Integration (CI) pipeline.",
   "main": "index.js",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,17 +30,22 @@
       ">0.2%",
       "not dead",
       "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NIGHTWarnhog6/Comp2156.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/NIGHTWarnhog6/Comp2156/issues"
   },
-  "homepage": "https://github.com/NIGHTWarnhog6/Comp2156#readme"
+  "homepage": "http://localhost:3000",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

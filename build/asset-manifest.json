@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NIGHTWarnhog6/Comp2156/static/css/main.27ca76a1.css",
+    "main.js": "/NIGHTWarnhog6/Comp2156/static/js/main.e587660e.js",
+    "static/js/453.587ded94.chunk.js": "/NIGHTWarnhog6/Comp2156/static/js/453.587ded94.chunk.js",
+    "index.html": "/NIGHTWarnhog6/Comp2156/index.html",
+    "main.27ca76a1.css.map": "/NIGHTWarnhog6/Comp2156/static/css/main.27ca76a1.css.map",
+    "main.e587660e.js.map": "/NIGHTWarnhog6/Comp2156/static/js/main.e587660e.js.map",
+    "453.587ded94.chunk.js.map": "/NIGHTWarnhog6/Comp2156/static/js/453.587ded94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ca76a1.css",
+    "static/js/main.e587660e.js"
+  ]
+}
